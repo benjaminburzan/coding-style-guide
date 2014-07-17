@@ -282,6 +282,13 @@ Code should be as self-documenting as possible, with only the need for intermitt
 Comments on methods and properties must be block comments (_/\* \*/_). Put at least an empty block comment (_/\* \*/_) on each property and method declaration (independently if they are declared in the interface (.h) or implementation (.m) block.
 This results in comprehensive popup information displayed in XCode when doing an alt+click on a method or variable reference.
 
+***With comment***
+![With comment](images/ios_xcode_nice_popup.png)
+
+***Without comment***
+![Without comment](ios_xcode_ugly_popup.png)
+
+
 ## init and dealloc
 
 *Use ARC!*
