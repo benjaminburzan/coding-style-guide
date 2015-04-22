@@ -20,7 +20,7 @@ Maximum line width is 140. Lines should break where suitable to maintain readabi
 
 ## Dot-Notation Syntax
 
-Dot-notation should **always** be used for accessing and mutating properties. Bracket notation is preferred in all other instances.
+Dot-notation should **always** be used for accessing and mutating properties. Bracket notation is to be used for non-property accesses.
 
 **For example:**
 
