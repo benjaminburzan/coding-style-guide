@@ -14,7 +14,7 @@ Further details on iOS development: [iOS App Programming Guide](http://developer
 
 ## General
 
-Maximum line width is 140. Lines should break where suitable to maintain readability.
+Maximum line width is 175. Lines should break where suitable to maintain readability.
 
 
 
