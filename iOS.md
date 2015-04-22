@@ -16,6 +16,14 @@ Further details on iOS development: [iOS App Programming Guide](http://developer
 
 Maximum line width is 175. Lines should break where suitable to maintain readability.
 
+## Clang-Format
+
+If you use [_clang-format_](http://clang.llvm.org/docs/ClangFormat.html) to format your code, you should use [_iOS.clang-format_](iOS.clang-format) and put it as _.clang-format_ in your project's or workspace's root folder.
+
+If not done so yet, you may install [_clang-format_](http://clang.llvm.org/docs/ClangFormat.html) via [Homebrew](http://brew.sh):
+
+    brew install clang-format
+
 
 
 ## Dot-Notation Syntax
