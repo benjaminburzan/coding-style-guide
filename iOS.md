@@ -12,6 +12,13 @@ Further more the [Cocoa Fundamentals Guide](https://developer.apple.com/library/
 Further details on iOS development: [iOS App Programming Guide](http://developer.apple.com/library/ios/#documentation/iphone/conceptual/iphoneosprogrammingguide/Introduction/Introduction.html)
 
 
+## Design
+
+There are **no public members**. Every class member/property is only made available through accessor methods.
+
+Don't use static/class members, unless it is really, really necessary. As e.g. for singleton's instance-variable.
+
+
 ## General
 
 Maximum line width is 175. Lines should break where suitable to maintain readability.
