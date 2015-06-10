@@ -127,6 +127,16 @@ Pros: Makes it obvious what classes are actually used. Makes code more readable 
 
 Decision: Use the latter for importing all Android code. An explicit exception is made for java standard libraries **(java.util.*, java.io.*, etc.)** and unit test code **(junit.framework.*)**
 
+#### Use interface such as List or Map
+
+Always require interface for example ArrayList (List) or HashMap (Map) when setting data type.
+
+        private void addFooToBar(List<String> entries) {
+                for (String item : entries) {
+                        //do something
+                }
+        }
+
 ___
 ### Java Library Rules
 
